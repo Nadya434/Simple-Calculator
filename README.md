@@ -1,5 +1,15 @@
-## Мои проекты
+## Примеры
 
-*   [Калькулятор на Python](https://github.com/Nadya434/calculator) (в разработке)
-*   [Список задач на JavaScript](https://github.com/Nadya434/todo-app) (планируется)
-*   [Сайт-портфолио](https://github.com/Nadya434/portfolio) (идея)
+```python
+# Сложение
+add(2, 3)  # 5
+
+# Вычитание
+subtract(5, 2)  # 3
+
+# Умножение
+multiply(4, 3)  # 12
+
+# Деление
+divide(10, 2)  # 5
+divide(10, 0)  # "Ошибка: деление на ноль!"
