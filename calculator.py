@@ -58,7 +58,8 @@ def divide(a, b):
     Args:
         a (float): Делимое
         b (float): Делитель
-Returns:
+        
+    Returns:
         float or str: Результат деления или сообщение об ошибке
         
     Example:
@@ -149,7 +150,8 @@ def calculate():
         print("7. Квадратный корень")
         print("0. Выход")
         print("="*40)
-choice = input("Выберите операцию (0-7): ")
+        
+        choice = input("Выберите операцию (0-7): ")
         
         # Выход из программы
         if choice == "0":
@@ -216,5 +218,5 @@ choice = input("Выберите операцию (0-7): ")
             print("\nСпасибо за использование калькулятора! До свидания!")
             break
 
-if name == "main":
+if __name__ == "__main__":
     calculate()
